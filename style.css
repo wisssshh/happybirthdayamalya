@@ -170,7 +170,7 @@ h4 {
 }
 
 .card .details p {
-	font-size: 11.5px;
+	font-size: 11px;
 	line-height: 6px;
 	transform: rotate(1deg);
 	padding: 0 0 0 20px;
@@ -200,7 +200,7 @@ h4 {
     text-align: center;
     width: 100%;
     z-index: 10;
-	color: #db8fdf; /* Warna merah untuk teks */
+	color: #d63131; /* Warna merah untuk teks */
 	font-size: 40px;
 }
 
