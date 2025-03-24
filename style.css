@@ -6,13 +6,13 @@
 
 body {
 	font-family: 'Indie Flower', cursive !important;
-  	background: #54d7ff; /* CAPE HONEY */
+  	background: #54d7ff;
 	margin: 0px;
 	padding: 0px;
     /* Tambahan latar bunga */
     background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="50%" x="50%" dominant-baseline="middle" text-anchor="middle" font-size="14" fill="%23FF69B4">🥳</text></svg>');
-    background-size: 200px 200px; /* Ukuran bunga */
-    background-repeat: repeat; /* Ulangi di seluruh layar */
+    background-size: 200px 200px; 
+    background-repeat: repeat; 
     background-position: center;
     touch-action: none;
 
@@ -29,14 +29,14 @@ h4 {
     transform: rotate(1deg);
 }
 
-.color1 { color: #ff69fa; } /* MOUNTAIN MEADOW */
-.color2 { color: #6671e6; } /* TALL POPPY */
-.color3 { color: #2bdd25}
+.color1 { color: #ff69fa; } 
+.color2 { color: #6671e6; } 
+.color3 { color: #2bdd25; }
 
 .card {
     max-width: 100%;
     height: auto;
-	color: #013243; /* SHERPA BLUE */
+	color: #013243;
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -55,7 +55,7 @@ h4 {
     left: 0;
     width: 100%;
     height: 100%;
-    pointer-events: none; /* Agar foto tidak mengganggu interaksi */
+    pointer-events: none; 
 }
 
 .photos img {
@@ -71,29 +71,29 @@ h4 {
 .top-left {
     top: 10px;
     left: 10px;
-    transform: rotate(-15deg); /* Foto atas kiri miring */
+    transform: rotate(-15deg); 
 }
 
 .top-right {
     top: 10px;
     right: 10px;
-    transform: rotate(15deg); /* Foto atas kanan miring */
+    transform: rotate(15deg); 
 }
 
 .bottom-left {
     bottom: 10px;
     left: 10px;
-    transform: rotate(15deg); /* Foto bawah kiri miring */
+    transform: rotate(15deg); 
 }
 
 .bottom-right {
     bottom: 10px;
     right: 10px;
-    transform: rotate(-15deg); /* Foto bawah kanan miring */
+    transform: rotate(-15deg);
 }
 
 .card:hover .photos img {
-    transform: rotate(0deg); /* Foto akan kembali lurus ketika kartu di-hover */
+    transform: rotate(0deg);
 }
 
 .card:hover {
@@ -196,16 +196,15 @@ h4 {
 
 .tap-sampul-container {
     position: absolute;
-    bottom: -100px; /* Letakkan teks di bawah */
+    bottom: -100px;
     text-align: center;
     width: 100%;
     z-index: 10;
-	color: #d63131; /* Warna merah untuk teks */
+	color: #d63131;
 	font-size: 40px;
 }
 
-/* Efek saat kartu di-hover */
 .card:hover .tap-sampul-container {
-    transform: rotate(1deg); /* Teks akan lurus saat kartu di-hover */
-    opacity: 0; /* Menambah visibilitas saat hover */
+    transform: rotate(1deg);
+    opacity: 0;
 }
